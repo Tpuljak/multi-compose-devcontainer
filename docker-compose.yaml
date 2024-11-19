@@ -1,0 +1,5 @@
+version: "3.8"
+services:
+  devcontainer:
+    image: daytonaio/workspace-project
+    entrypoint: /bin/sh -c "sleep infinity"
