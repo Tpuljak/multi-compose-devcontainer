@@ -5,6 +5,7 @@
 		"docker-compose.yaml"
 	],
 	"service": "devcontainer",
+	"initializeCommand": "echo '${containerWorkspaceFolder}'",
 	"workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}",
 	"remoteUser": "daytona"
 }
